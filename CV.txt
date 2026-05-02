@@ -1,0 +1,53 @@
+Jiacheng Lu（卢嘉成）
+
+Shanghai Jiao Tong Univeristy
+Computer Science & Finance dual degree      2022-2026
+
+Shanghai Jiao Tong Univeristy
+Computer Science(博士生致远荣誉计划).          2026-
+
+入选 “伯乐计划”上海交通大学卓越本科生培养计划
+
+邮箱: jack111@sjtu.edu.cn 
+Google scholar：https://scholar.google.com/citations?user=0MUSbIoAAAAJ&hl=en
+
+Papers
+
+1. Multi-modal and Metadata Capture Model for Micro Video Popularity Prediction
+Jiacheng Lu, Mingyuan Xiao, Weijian Wang, Yuxin Du, Zhengze Wu, Cheng Hua
+2024 INFORMS Annual Meeting
+链接：https://arxiv.org/abs/2502.17038
+
+2. Echoes within the Reasoning: Stealth and Effective Watermarking via Chain of Thought
+Jiacheng Lu, Yiming Li, Tao Song*, Weijian Wang, Wenjie Qu, Haibing Guan, Jiaheng Zhang
+ICML (ICML 2026) 
+
+3. Diagnosing Hidden Instabilities in Model Editing via Uncertainty Quantification
+Zihan Gu, TianYi Zhang, Xinyan Zhang, Zhiyuan Wang, Han Zhang, Yuhao Wei, Jiacheng Lu, Tianyi Ma, Xingsheng ZHANG, Hua Zhang, Yue Hu
+ACL (ACL 2026) 
+
+4. Neo-Classic: A Benchmark for Evaluating Linguistic-Aesthetic Reasoning in Classical Chinese Poetry
+Han Zhang, Zihan Gu, Zhiyuan Wang, Tianyi Ma, Jiacheng Lu, Xinyan Zhang, Yuhao Wei, Cheng Hua
+ACL (ACL 2026) 
+
+5. M3TR: Micro-video Popularity Prediction via Multi-Modal and Multi-Temporal Enhanced Retrieval
+Jiacheng Lu, Mingyuan Xiao, Weijian Wang, Yuxin Du, Tao Song, Yang Hua, Jiaru Zhang, Yi Cui, Cheng Hua, Haibing Guan
+MM (MM 2026)[在投]
+链接：https://arxiv.org/abs/2411.15455
+
+7. OSBNN: An Enhanced Bayesian Neural Network with Geometric Weight Decomposition and Structural Optimization
+Jiacheng Lu†, Weijian Wang†, Mingyuan Xiao†, Jiaru Zhang, Tao Song, Yang Hua,Cheng  Haibing Guan^*
+working paper
+
+8. 拥有七项中国专利，一项第一发明人，三项第二发明人，两项参与发明（排名第七）
+
+学术服务
+会议审稿人: NeurIPS 2024（CCF-A），ICLR 2025（CCF-A），IJCAI 2025（CCF-A），AAAI 2025(CCF-A)，ACMMM 2025（CCF-A），ICCV 2025（CCF-A），ICWSM 2025（CCF-B），ISCI 2025（CCF-C）, 2025 AOM Annual Meeting（管理学顶会）,ICML 2026, ICLR 2026
+
+期刊审稿人/青年编辑: Neural Networks
+
+技术程序委员会成员: ICPCT 2025
+
+优秀审稿人：AOM（管理学年会）、IJCAI、Neural Networks
+
+学生会员：CCF member，INFORMS member，INFORMS Data Mining Society member, The Society for Causal Inference (SCI) member, The Bilevel Optimization Society(BOS) member

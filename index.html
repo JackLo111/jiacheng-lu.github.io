@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jiacheng Lu · 卢嘉成</title>
+  <meta name="description" content="Jiacheng Lu (卢嘉成) — PhD student in Computer Science at Shanghai Jiao Tong University. Research in LLM watermarking and safety, model editing, and multi-modal prediction.">
+  <meta name="author" content="Jiacheng Lu">
+  <meta name="color-scheme" content="light dark">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (!t) {
+          t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+        }
+        document.documentElement.setAttribute('data-theme', t);
+        var l = localStorage.getItem('lang');
+        if (!l) {
+          l = (navigator.language || 'en').toLowerCase().indexOf('zh') === 0 ? 'cn' : 'en';
+        }
+        document.documentElement.setAttribute('lang', l === 'cn' ? 'zh-CN' : 'en');
+        document.documentElement.setAttribute('data-lang', l);
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap">
+
+  <link rel="icon" href="assets/avatar.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <button class="toggle toggle-lang" id="toggle-lang" type="button" aria-label="Switch language / 切换语言">
+        <span class="lang lang-en">EN</span>
+        <span class="sep">·</span>
+        <span class="lang lang-cn">中</span>
+      </button>
+      <button class="toggle toggle-theme" id="toggle-theme" type="button" aria-label="Toggle color theme">
+        <span class="icon-sun" aria-hidden="true">☀</span>
+        <span class="icon-moon" aria-hidden="true">☾</span>
+      </button>
+    </header>
+
+    <main>
+      <div class="hero reveal">
+        <img src="assets/avatar.jpg" alt="Portrait of Jiacheng Lu" class="hero-avatar" width="80" height="80">
+        <div>
+          <h1 class="hero-name">
+            <span class="en">Jiacheng Lu<em class="aka" lang="zh">卢嘉成</em></span>
+            <span class="cn">卢嘉成<em class="aka" lang="en">Jiacheng Lu</em></span>
+          </h1>
+          <p class="hero-tagline">
+            <span class="en">PhD student in CS, Shanghai Jiao Tong University (Zhiyuan Honors) · Shanghai</span>
+            <span class="cn">上海交通大学计算机系博士生（致远荣誉计划） · 上海</span>
+          </p>
+        </div>
+      </div>
+
+      <section class="section reveal" id="about">
+        <h2 class="section-label">
+          <span class="en">About</span><span class="cn">关于</span>
+        </h2>
+        <p>
+          <span class="en">I'm a zero-year PhD student in Computer Science at Shanghai Jiao Tong University, enrolled in the Zhiyuan Honors Program. My research spans watermarking and safety for large language models, robustness and uncertainty in model editing, and multi-modal popularity prediction.</span>
+          <span class="cn">上海交通大学计算机科学博零，入选博士生致远荣誉计划。研究方向包括大语言模型水印与安全、模型编辑的鲁棒性与不确定性，以及多模态流行度预测。</span>
+        </p>
+        <p>
+          <span class="en">Before the PhD I completed a dual-degree undergraduate program in Computer Science and Finance at SJTU, selected for the university's Bolo Program for outstanding undergraduates.</span>
+          <span class="cn">本科就读于上海交通大学计算机科学与金融双学位，入选"伯乐计划"上海交通大学卓越本科生培养计划。</span>
+        </p>
+      </section>
+
+      <section class="section reveal" id="education">
+        <h2 class="section-label">
+          <span class="en">Education</span><span class="cn">教育经历</span>
+        </h2>
+        <div class="rows">
+          <div class="row">
+            <div class="row-year">2026&nbsp;—</div>
+            <div class="row-body">
+              <div class="row-title">
+                <span class="en">PhD, Computer Science</span>
+                <span class="cn">计算机科学博士</span>
+              </div>
+              <div class="row-meta">
+                <span class="en">Shanghai Jiao Tong University · Zhiyuan Honors Program</span>
+                <span class="cn">上海交通大学 · 博士生致远荣誉计划</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row-year">2022–2026</div>
+            <div class="row-body">
+              <div class="row-title">
+                <span class="en">BSc, Computer Science &amp; Finance (dual degree)</span>
+                <span class="cn">计算机科学 &amp; 金融 双学士</span>
+              </div>
+              <div class="row-meta">
+                <span class="en">Shanghai Jiao Tong University · Bolo Program</span>
+                <span class="cn">上海交通大学 · 伯乐计划 · 卓越本科生培养计划</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="publications">
+        <h2 class="section-label">
+          <span class="en">Publications</span><span class="cn">论文</span>
+        </h2>
+        <ol class="pubs">
+          <li class="pub">
+            <span class="pub-year">2026</span>
+            <div class="pub-body">
+              <div class="pub-title">Echoes within the Reasoning: Stealth and Effective Watermarking via Chain of Thought</div>
+              <div class="pub-authors"><strong>Jiacheng Lu</strong>, Yiming Li, Tao Song*, Weijian Wang, Wenjie Qu, Haibing Guan, Jiaheng Zhang</div>
+              <div class="pub-venue">ICML 2026</div>
+            </div>
+          </li>
+
+          <li class="pub">
+            <span class="pub-year">2026</span>
+            <div class="pub-body">
+              <div class="pub-title">Diagnosing Hidden Instabilities in Model Editing via Uncertainty Quantification</div>
+              <div class="pub-authors">Zihan Gu, TianYi Zhang, Xinyan Zhang, Zhiyuan Wang, Han Zhang, Yuhao Wei, <strong>Jiacheng Lu</strong>, Tianyi Ma, Xingsheng Zhang, Hua Zhang, Yue Hu</div>
+              <div class="pub-venue">ACL 2026</div>
+            </div>
+          </li>
+
+          <li class="pub">
+            <span class="pub-year">2026</span>
+            <div class="pub-body">
+              <div class="pub-title">Neo-Classic: A Benchmark for Evaluating Linguistic-Aesthetic Reasoning in Classical Chinese Poetry</div>
+              <div class="pub-authors">Han Zhang, Zihan Gu, Zhiyuan Wang, Tianyi Ma, <strong>Jiacheng Lu</strong>, Xinyan Zhang, Yuhao Wei, Cheng Hua</div>
+              <div class="pub-venue">ACL 2026</div>
+            </div>
+          </li>
+
+          <li class="pub">
+            <span class="pub-year">2026</span>
+            <div class="pub-body">
+              <div class="pub-title">M3TR: Micro-video Popularity Prediction via Multi-Modal and Multi-Temporal Enhanced Retrieval</div>
+              <div class="pub-authors"><strong>Jiacheng Lu</strong>, Mingyuan Xiao, Weijian Wang, Yuxin Du, Tao Song, Yang Hua, Jiaru Zhang, Yi Cui, Cheng Hua, Haibing Guan</div>
+              <div class="pub-venue">ACM MM 2026<span class="tag">Under review</span></div>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2411.15455" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+            </div>
+          </li>
+
+          <li class="pub">
+            <span class="pub-year">2024</span>
+            <div class="pub-body">
+              <div class="pub-title">Multi-modal and Metadata Capture Model for Micro Video Popularity Prediction</div>
+              <div class="pub-authors"><strong>Jiacheng Lu</strong>, Mingyuan Xiao, Weijian Wang, Yuxin Du, Zhengze Wu, Cheng Hua</div>
+              <div class="pub-venue">INFORMS Annual Meeting 2024</div>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2502.17038" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+            </div>
+          </li>
+
+          <li class="pub">
+            <span class="pub-year">—</span>
+            <div class="pub-body">
+              <div class="pub-title">OSBNN: An Enhanced Bayesian Neural Network with Geometric Weight Decomposition and Structural Optimization</div>
+              <div class="pub-authors"><strong>Jiacheng Lu</strong>†, Weijian Wang†, Mingyuan Xiao†, Jiaru Zhang, Tao Song, Yang Hua, Cheng Hua, Haibing Guan*</div>
+              <div class="pub-venue"><span class="tag">Working paper</span></div>
+            </div>
+          </li>
+        </ol>
+        <p class="pub-footnote">
+          <span class="en">* corresponding author &nbsp;·&nbsp; † equal contribution</span>
+          <span class="cn">* 通讯作者 &nbsp;·&nbsp; † 共同第一作者</span>
+        </p>
+      </section>
+
+      <section class="section reveal" id="patents">
+        <h2 class="section-label">
+          <span class="en">Patents</span><span class="cn">专利</span>
+        </h2>
+        <p>
+          <span class="en">Seven Chinese patents, including one as first inventor, three as second inventor, and two as co-inventor.</span>
+          <span class="cn">共七项中国专利，其中一项第一发明人、三项第二发明人、两项参与发明。</span>
+        </p>
+      </section>
+
+      <section class="section reveal" id="service">
+        <h2 class="section-label">
+          <span class="en">Academic Service</span><span class="cn">学术服务</span>
+        </h2>
+
+        <div class="service-group">
+          <div class="service-label">
+            <span class="en">Conference Reviewer</span><span class="cn">会议审稿</span>
+          </div>
+          <div class="service-body">
+            <span class="en">ICML 2026 · ICLR 2026 · NeurIPS 2024 · ICLR 2025 · IJCAI 2025 · AAAI 2025 · ACM MM 2025 · ICCV 2025 · ICWSM 2025 · ISCI 2025 · AOM Annual Meeting 2025</span>
+            <span class="cn">ICML 2026 · ICLR 2026 · NeurIPS 2024 · ICLR 2025 · IJCAI 2025 · AAAI 2025 · ACM MM 2025 · ICCV 2025 · ICWSM 2025 · ISCI 2025 · AOM 管理学年会 2025</span>
+          </div>
+        </div>
+
+        <div class="service-group">
+          <div class="service-label">
+            <span class="en">Journal Reviewer · Youth Editor</span><span class="cn">期刊审稿 · 青年编委</span>
+          </div>
+          <div class="service-body">Neural Networks</div>
+        </div>
+
+        <div class="service-group">
+          <div class="service-label">
+            <span class="en">Technical Program Committee</span><span class="cn">技术程序委员会</span>
+          </div>
+          <div class="service-body">ICPCT 2025</div>
+        </div>
+
+        <div class="service-group">
+          <div class="service-label">
+            <span class="en">Outstanding Reviewer</span><span class="cn">优秀审稿人</span>
+          </div>
+          <div class="service-body">
+            <span class="en">AOM Annual Meeting · IJCAI · Neural Networks</span>
+            <span class="cn">AOM 管理学年会 · IJCAI · Neural Networks</span>
+          </div>
+        </div>
+
+        <div class="service-group">
+          <div class="service-label">
+            <span class="en">Memberships</span><span class="cn">学会会员</span>
+          </div>
+          <div class="service-body">CCF · INFORMS · INFORMS Data Mining Society · Society for Causal Inference · Bilevel Optimization Society</div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="contact">
+        <h2 class="section-label">
+          <span class="en">Contact</span><span class="cn">联系方式</span>
+        </h2>
+        <ul class="contact-links">
+          <li>
+            <span class="label">Email</span>
+            <a href="mailto:jack111@sjtu.edu.cn">jack111@sjtu.edu.cn</a>
+          </li>
+          <li>
+            <span class="label">Scholar</span>
+            <a href="https://scholar.google.com/citations?user=0MUSbIoAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          </li>
+          <li>
+            <span class="label">GitHub</span>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span class="en">© 2026 Jiacheng Lu · Shanghai</span>
+      <span class="cn">© 2026 卢嘉成 · 上海</span>
+    </footer>
+  </div>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
